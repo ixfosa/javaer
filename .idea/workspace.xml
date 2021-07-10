@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4424bb66-0aa5-44be-b83a-e8fe92e8f332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/top/ixfosa/func/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern/src/top/ixfosa/factory/abstr/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/factory/abstr/AbstractFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,11 +76,14 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.ixfosa.singleton.lazy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\IdeaProjects\javaer\pattern\src\top\ixfosa\factory\abstr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryTest">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.ixfosa.factory.abstr.AbstractFactoryTest" />
       <module name="pattern" />
@@ -107,8 +123,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.lazy.SingletonTest" />
+      <module name="pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.ixfosa.singleton.lazy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.hunger.SingletonTest" />
+      <module name="pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.ixfosa.singleton.hunger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.SingletonTest (1)" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.FuncFactoryTest" />
         <item itemvalue="Application.SimpleFactoryTest" />
@@ -130,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625803482223</updated>
       <workItem from="1625803485629" duration="3487000" />
-      <workItem from="1625915632906" duration="7295000" />
+      <workItem from="1625915632906" duration="10836000" />
     </task>
     <servers />
   </component>
@@ -142,50 +186,54 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="233" y="43" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1625803718401" />
-    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1625922137659">
+    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1625923525185">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1625922137659" />
+    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1625923525185" />
     <state x="419" y="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625921873243">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="419" y="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.770@0.0.1280.770" timestamp="1625921873243" />
+    <state x="321" y="25" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1625926244421">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="321" y="25" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.770@0.0.1280.770" timestamp="1625926244421" />
     <state x="381" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1625919721947">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="381" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.770@0.0.1280.770" timestamp="1625919721947" />
-    <state width="1238" height="92" key="GridCell.Tab.0.bottom" timestamp="1625922604234">
+    <state width="1238" height="284" key="GridCell.Tab.0.bottom" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="92" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1625922604234" />
-    <state width="1238" height="92" key="GridCell.Tab.0.center" timestamp="1625922604234">
+    <state width="1238" height="284" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.0.center" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="92" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1625922604234" />
-    <state width="1238" height="92" key="GridCell.Tab.0.left" timestamp="1625922604234">
+    <state width="1238" height="284" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.0.left" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="92" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1625922604234" />
-    <state width="1238" height="92" key="GridCell.Tab.0.right" timestamp="1625922604234">
+    <state width="1238" height="284" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.0.right" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="92" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1625922604234" />
-    <state width="1238" height="118" key="GridCell.Tab.1.bottom" timestamp="1625916713134">
+    <state width="1238" height="284" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.1.bottom" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="118" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1625916713134" />
-    <state width="1238" height="118" key="GridCell.Tab.1.center" timestamp="1625916713133">
+    <state width="1238" height="284" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.1.center" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="118" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1625916713133" />
-    <state width="1238" height="118" key="GridCell.Tab.1.left" timestamp="1625916713133">
+    <state width="1238" height="284" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.1.left" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="118" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1625916713133" />
-    <state width="1238" height="118" key="GridCell.Tab.1.right" timestamp="1625916713134">
+    <state width="1238" height="284" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
+    <state width="1238" height="284" key="GridCell.Tab.1.right" timestamp="1625926478206">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="118" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1625916713134" />
+    <state width="1238" height="284" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1625926478206" />
     <state x="6" y="0" key="new project wizard" timestamp="1625803712858">
       <screen x="0" y="0" width="1280" height="770" />
     </state>

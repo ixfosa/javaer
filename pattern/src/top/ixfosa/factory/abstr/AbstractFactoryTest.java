@@ -24,5 +24,6 @@ public class AbstractFactoryTest {
 
         OrderDetailDao orderDetailDao1 = xmlDaoFactory.CreateOrderDetailDao();
         orderDetailDao1.delOrderMain();
+
     }
 }
