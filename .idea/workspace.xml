@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4424bb66-0aa5-44be-b83a-e8fe92e8f332" name="Default Changelist" comment="" />
+    <list default="true" id="4424bb66-0aa5-44be-b83a-e8fe92e8f332" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.ixfosa.singleton.seriable" />
       <recent name="top.ixfosa.singleton.checkdouble" />
       <recent name="top.ixfosa.singleton.lazy" />
     </key>
@@ -84,7 +87,7 @@
       <recent name="D:\code\IdeaProjects\javaer\pattern\src\top\ixfosa\factory\abstr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonTest (1)">
+  <component name="RunManager" selected="Application.SeriableSafeTest">
     <configuration name="SIngletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.checkdouble.SIngletonTest" />
       <module name="pattern" />
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.register.SingletonTest" />
+    <configuration name="SeriableSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.seriable.SeriableSafeTest" />
       <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.ixfosa.singleton.register.*" />
+          <option name="PATTERN" value="top.ixfosa.singleton.seriable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.lazy.SingletonTest" />
+    <configuration name="SeriableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.seriable.SeriableTest" />
       <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.ixfosa.singleton.innerclass.*" />
+          <option name="PATTERN" value="top.ixfosa.singleton.seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.register.SingletonTest" />
+      <module name="pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.ixfosa.singleton.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,26 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.ixfosa.singleton.lazy.SyncSingletonTest" />
-      <module name="pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.ixfosa.singleton.innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeriableSafeTest" />
+        <item itemvalue="Application.SeriableTest" />
         <item itemvalue="Application.SingletonTest (1)" />
         <item itemvalue="Application.SIngletonTest (1)" />
         <item itemvalue="Application.SIngletonTest" />
-        <item itemvalue="Application.SingletonTest" />
-        <item itemvalue="Application.SyncSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +207,7 @@
       <workItem from="1625915632906" duration="10836000" />
       <workItem from="1626142602962" duration="831000" />
       <workItem from="1626263756494" duration="5623000" />
-      <workItem from="1626350945094" duration="330000" />
+      <workItem from="1626350945094" duration="1669000" />
     </task>
     <servers />
   </component>
@@ -220,10 +223,10 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="233" y="43" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1626273189630" />
-    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1625923525185">
+    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1626352379097">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1625923525185" />
+    <state x="766" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1626352379097" />
     <state x="419" y="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625921873243">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
@@ -236,22 +239,22 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="381" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.770@0.0.1280.770" timestamp="1625919721947" />
-    <state width="1238" height="284" key="GridCell.Tab.0.bottom" timestamp="1626273195692">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1626352583228">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="284" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1626273195692" />
-    <state width="1238" height="284" key="GridCell.Tab.0.center" timestamp="1626273195692">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1626352583228" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1626352583228">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="284" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1626273195692" />
-    <state width="1238" height="284" key="GridCell.Tab.0.left" timestamp="1626273195691">
+    <state width="1238" height="246" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1626352583228" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1626352583227">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="284" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1626273195691" />
-    <state width="1238" height="284" key="GridCell.Tab.0.right" timestamp="1626273195692">
+    <state width="1238" height="246" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1626352583227" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1626352583228">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="284" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1626273195692" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1626352583228" />
     <state width="1238" height="284" key="GridCell.Tab.1.bottom" timestamp="1626273195692">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
