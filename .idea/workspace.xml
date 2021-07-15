@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4424bb66-0aa5-44be-b83a-e8fe92e8f332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/innerclass/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/SyncSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/SyncSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pattern/top/ixfosa/singleton/hunger/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pattern/top/ixfosa/singleton/hunger/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pattern/top/ixfosa/singleton/lazy/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pattern/top/ixfosa/singleton/lazy/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/hunger/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/hunger/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/top/ixfosa/singleton/lazy/SingletonTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4424bb66-0aa5-44be-b83a-e8fe92e8f332" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,6 +204,7 @@
       <workItem from="1625915632906" duration="10836000" />
       <workItem from="1626142602962" duration="831000" />
       <workItem from="1626263756494" duration="5623000" />
+      <workItem from="1626350945094" duration="330000" />
     </task>
     <servers />
   </component>
